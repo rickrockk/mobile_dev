@@ -7,21 +7,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~3.2.1",
     "@expo/vector-icons": "^14.0.0",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/stack": "^6.3.29",
     "axios": "^1.7.2",
     "expo": "~51.0.9",
+    "expo-image-picker": "~15.0.5",
     "expo-status-bar": "~1.12.1",
+    "hermes": "^0.0.8",
     "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-native": "0.74.1",
     "react-native-image-picker": "^7.1.2",
     "react-native-navigation": "^7.40.0",
     "react-native-paper": "4.9.2",
-    "react-navigation": "^5.0.0",
     "react-native-web": "~0.19.10",
-    "react-dom": "18.2.0",
-    "@expo/metro-runtime": "~3.2.1"
+    "react-navigation": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
